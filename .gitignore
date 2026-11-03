@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+.next/
+out/
+build/
+dist/
+
+# Local databases / secrets
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.local
+
+# Caches / temp
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db
